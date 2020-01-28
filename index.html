@@ -201,6 +201,100 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/28/html/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/%E4%BD%9C%E8%80%85%E5%A4%B4%E5%83%8F.jpg">
+      <meta itemprop="name" content="ryker">
+      <meta itemprop="description" content="学习~生活~爱情">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="只求1V9">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/28/html/" class="post-title-link" itemprop="url">html</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-28 17:43:01 / 修改时间：17:43:40" itemprop="dateCreated datePublished" datetime="2020-01-28T17:43:01+08:00">2020-01-28</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/html/" itemprop="url" rel="index">
+                    <span itemprop="name">html</span>
+                  </a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>995</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>html知识点总结（一）</p>
+<p>一、html xhtml html5</p>
+<p>html ：超文本标记语言 HTML1~HTML4<br>xhtml：可拓展超文本标记语言，相比于html语法更严格<br>html5：新一代的超文本标记语言<br>区别：<br>前俩者都需要dtd声明属于哪个类型 基于sgml语言 有语义化的声明结构<br>html5只需要doctype声明即可 有语义化的声明结构 内容包含html5+css3+javascript api<br>二、doctype的作用</p>
+<p>告诉浏览器他处理的是html文档<br>用来标记文档内容的html版本<br>三、浏览器的标准模式、怪异模式</p>
+<p>历史原因：<br>以前的html在不同浏览器渲染出来的效果也不同，没有统一的规范，产生了差异，于是就有了怪异模式<br>w3c出台了标准之后，各浏览器对页面的渲染有了统一的标准，于是就有了标准模式<br>这种区别体现在哪呢？<br>1、盒模型<br>怪：ie的宽指的就是width=content+padding+border<br>标：width=content<br>2、图片元素垂直对齐方式<br>怪：table单元格中的图片的vertical-align属性默认取值为bottom，因此在图片底部会有及像素的空间。<br>标：标准模式下vertical-align属性默认取值为baseline<br>3、</p>
+<p>元素中的字体：<br>标：CSS中，对于font的属性都是可以继承的，<br>怪：对于table元素，字体的某些元素将不会从body等其他封装元素中继承得到，特别是font-size属性。<br>4、元素的百分比高度：<br>标准模式下，高度取决于内容变化，怪异模式下，百分比高度被正确应用。<br>四、使用data-属性的好处是什么</p>
+<p>data-* 属性用于存储页面或应用程序的私有自定义数据。</p>
+<p>五、你能描述一下渐进增强和优雅降级之间的不同吗?</p>
+<p>优雅降级：Web站点在所有新式浏览器中都能正常工作，如果用户使用的是老式浏览器，则代码会检查以确认它们是否能正常工作。由于IE独特的盒模型布局问题，针对不同版本的IE的hack实践过优雅降级了,为那些无法支持功能的浏览器增加候选方案，使之在旧式浏览器上以某种形式降级体验却不至于完全失效.<br>渐进增强：从被所有浏览器支持的基本功能开始，逐步地添加那些只有新式浏览器才支持的功能,向页面增加无害于基础浏览器的额外样式和功能的。当浏览器支持时，它们会自动地呈现出来并发挥作用。</p>
+<p>六、如果把HTML5看作做一个开放平台，那它的构建模块有哪些？</p>
+<p>语义化的标签，头部、底部、内容等</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/28/min/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -446,20 +540,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -519,7 +613,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">1k</span>
+    <span title="站点总字数">2k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
